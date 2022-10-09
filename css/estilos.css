@@ -32,7 +32,7 @@ section {
   position: relative;
 }
 
-.overlay {
+.transparencia {
   position: absolute;
   top: 0;
   left: 0;
@@ -49,7 +49,7 @@ section {
   background-attachment: fixed;
 }
 
-.hero-section {
+.hero-seccion {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -100,11 +100,11 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
-.section-intro {
+.seccion-intro {
   margin-bottom: 40px;
 }
 
-.section-intro .divider {
+.section-intro .division {
   height: 4px;
   width: 70px;
   background: linear-gradient(to right, #00e0fe, #1107fe);
@@ -115,6 +115,7 @@ section {
   position: relative;
   width: 300px;
   height: 220px;
+ 
 }
 
 .producto .icon {
@@ -132,6 +133,7 @@ section {
 
 .producto .producto-img .icon i {
   font-size: 36px;
+ 
 }
 
 .feature i {
@@ -143,8 +145,7 @@ section {
 
 .opinion {
   box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
-  min-height: 380px;
-  min-width: 416px;
+  min-height: 412px;
 }
 .opinion .persona {
   display: flex;
@@ -164,6 +165,10 @@ section {
   color: orange;
 }
 
+.aseguradora-img {
+  padding: 20px;
+  width: 250px;
+}
 form .form-control {
   border-radius: 0;
   background: transparent;
@@ -204,4 +209,6 @@ figure {
   width: 400px;
   margin-top: 50px;
   margin: 40px;
+}
+@media screen {
 }
