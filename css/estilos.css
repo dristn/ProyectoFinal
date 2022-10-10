@@ -104,7 +104,7 @@ section {
   margin-bottom: 40px;
 }
 
-.section-intro .division {
+.seccion-intro .division {
   height: 4px;
   width: 70px;
   background: linear-gradient(to right, #00e0fe, #1107fe);
@@ -113,9 +113,7 @@ section {
 
 .producto .producto-img {
   position: relative;
-  width: 300px;
   height: 220px;
- 
 }
 
 .producto .icon {
@@ -133,7 +131,6 @@ section {
 
 .producto .producto-img .icon i {
   font-size: 36px;
- 
 }
 
 .feature i {
@@ -168,6 +165,10 @@ section {
 .aseguradora-img {
   padding: 20px;
   width: 250px;
+}
+
+.blog-img {
+  height: 200px;
 }
 form .form-control {
   border-radius: 0;
