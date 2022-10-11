@@ -1,36 +1,30 @@
 @media screen and (max-width: 992px) {
-  .logo{
-  width: 350px;
-  padding-left: 120px;
-
-}
-  
-  .media{
-   display: none;
-   
+  .logo {
+    width: 350px;
+    padding-left: 150px;
   }
 .redes{
-font-size: 30px;
-  text-align: center;
+    i{
+        padding-right: 120px;
+    }
 }
-figure {
- padding-left: 250px;
-}
-.media2 p{
-  text-align: center;
-}
-
-
-footer {
-  background: linear-gradient(to right, #00e0fe, #1107fe);
-  color: #fff;
-
-  a {
-    color: #fff;
+  .media {
+    display: none;
   }
-
-}
-}
-
  
+  figure {
+    padding-left: 250px;
+  }
+   .media2 p {
+      text-align: center;
+    }
 
+  footer {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+}

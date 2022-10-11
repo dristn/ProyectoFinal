@@ -20,20 +20,26 @@ form .form-control input {
 @media screen and (max-width: 992px) {
   .logo {
     width: 350px;
-    padding-left: 120px;
+    padding-left: 150px;
+  }
+  .redes i {
+    padding-right: 120px;
   }
   .media {
     display: none;
-  }
-  .redes {
-    font-size: 30px;
-    text-align: center;
   }
   figure {
     padding-left: 250px;
   }
   .media2 p {
     text-align: center;
+  }
+  footer {
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    color: #fff;
+  }
+  footer a {
+    color: #fff;
   }
 }
 body {
@@ -226,7 +232,6 @@ footer a {
 }
 
 .redes i {
-  font-size: 25px;
-  width: 40px;
+  width: 45px;
   padding-top: 10px;
 }/*# sourceMappingURL=master.css.map */
