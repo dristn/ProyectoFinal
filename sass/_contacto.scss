@@ -1,0 +1,19 @@
+form {
+  .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+    &:focus {
+      color: #fff;
+      background: transparent;
+      border-color: #fff;
+    }
+    &::placeholder {
+      color: #fff;
+    }
+    input {
+      height: 54px;
+    }
+  }
+}
